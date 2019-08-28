@@ -103,3 +103,12 @@ gmk mailmap
 gmk conf
 gmk mailmaps
 ```
+
+# Add and use a Makefile to generate inventory
+
+[Makefile](Makefile) will build inventory files from the mix of public
+and private repos of [gmk.yml](gmk.yml)
+
+```
+make main
+```

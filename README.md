@@ -92,3 +92,14 @@ git add .
 git ci -m 'First commit'
 git push --set-upstream origin master
 ```
+
+# Add and use a gmk file
+
+gmk default do [gmk.yml](gmk.yml) arg file
+
+```
+gmk self/config
+gmk mailmap
+gmk conf
+gmk mailmaps
+```

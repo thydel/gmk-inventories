@@ -32,7 +32,7 @@ To be replaced by a Makefile
 # Looks like ansible-stable-2.8 don't evaluate become in loops
 git clone --branch stable-2.7 --recursive git://github.com/ansible/ansible.git ansible-stable-2.7
 source ansible-stable-2.7/hacking/env-setup -q
-./install-jq.yml -i localhost, -t install
+./install-jq.yml -i localhost,
 ```
 
 ### Get latest compiled version
@@ -86,3 +86,9 @@ gmk file=boot self/create
 Will display the cmd to run
 
 # Add files to repos and make first commit
+
+```
+git add .
+git ci -m 'First commit'
+git push --set-upstream origin master
+```

@@ -55,7 +55,7 @@
 
 - git: git@github.com:Epiconcept-Paris/infra-data-inventories.git
   name: inventories
-  version: tde
+  version: master
   conf: thyepi
 
 - git: git@github.com:thydel/ansible-cfg.git

@@ -45,8 +45,7 @@
 
 - git: git@github.com:thydel/infra-ips.git
   name: ips
-  conf: master
-  links: data-ips data-misc
+  conf: thydel
 
 - git: git@github.com:Epiconcept-Paris/infra-data-nodes-groups.git
   name: nodes-groups

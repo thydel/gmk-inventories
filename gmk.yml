@@ -57,6 +57,11 @@
   version: master
   conf: thyepi
 
+- git: git@github.com:Epiconcept-Paris/gmk-infra-out.git
+  name: out
+  conf: thyepi
+  version: master
+
 - git: git@github.com:thydel/ansible-cfg.git
   name: ansible-cfg
   conf: thydel

@@ -1,3 +1,10 @@
+# TK;DR
+
+```bash
+make main
+make main OLD=1
+```
+
 # Context
 
 - On `Debian9`
